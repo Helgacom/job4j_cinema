@@ -1,12 +1,12 @@
 INSERT INTO files (id, name, path)
 VALUES
-(1, 'Oppenheimer', 'files/oppengeimer_best-movies-2023.5qelhayifu33..webp'),
-(2, 'Evil Dead Rise', 'files/best-movies-2023_04.qosguhz7uuvw..webp'),
-(3, 'John Wick: Chapter 4', 'files/best-movies-2023_01.6eicwqj5giak..webp'),
-(4, 'Guardians of the Galaxy Vol. 3', 'files/best-movies-2023_02.rkawn4a4c4dh..webp'),
-(5, 'Blackberry', 'files/best-movies-2023_05.7q8kpmf6h6nx..webp'),
-(6, 'Dungeons & Dragons: Honor Amoung Thieves', 'files/best-movies-2023_06.zxnaw8dzska8..webp'),
-(7, 'The Super Mario Bros. Movie', 'files/best-movies-2023_07.wkhhjwla7zj7..webp'),
-(8, 'Spyder-Man: Across the Spyder-Verse', 'files/pauk_best-movies-2023.atghrzggw5yh..webp'),
-(9, 'Barbie', 'files/20-upd-best-movies-2023.wp3hjieeiuaz..webp'),
-(10, 'The Covenant', 'files/perevodchik_best-movies-2023.dpfyetpzpiax..webp');
+(1, 1, 1, '2024-05-17 10:50:00', '2024-05-17 14:00:00', 320),
+(2, 2, 3, '2024-05-17 20:10:00', '2024-05-17 21:56:00', 220),
+(3, 3, 2, '2024-05-17 18:00:00', '2024-05-17 20:59:00', 280),
+(4, 4, 1, '2024-05-17 19:50:00', '2024-05-17 22:30:00', 320),
+(5, 5, 2, '2024-05-17 11:30:00', '2024-05-17 14:10:00', 280),
+(6, 6, 3, '2024-05-17 14:40:00', '2024-05-17 17:30:00', 220),
+(7, 7, 3, '2024-05-17 11:30:00', '2024-05-17 14:10:00', 220),
+(8, 8, 1, '2024-05-17 14:20:00', '2024-05-17 16:50:00', 320),
+(9, 9, 2, '2024-05-17 14:30:00', '2024-05-17 16:34:00', 280),
+(10, 10, 1, '2024-05-17 17:20:00', '2024-05-17 19:23:00', 320);
