@@ -1,7 +1,5 @@
 package ru.job4j.cinema.dto;
 
-import ru.job4j.cinema.model.FilmSession;
-
 import java.util.Objects;
 
 public class FilmDto {

@@ -27,7 +27,7 @@ class Sql2oFilmRepositoryTest {
     @BeforeAll
     public static void initRepository() throws IOException {
         Properties properties = new Properties();
-        try (InputStream inputStream = Sql2oFilmSessionRepositoryTest.class.getClassLoader()
+        try (InputStream inputStream = Sql2oFilmRepositoryTest.class.getClassLoader()
                 .getResourceAsStream("connection.properties")) {
             properties.load(inputStream);
         }

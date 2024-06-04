@@ -24,7 +24,7 @@ class Sql2oGenreRepositoryTest {
     @BeforeAll
     public static void initRepositories() throws IOException {
         var properties = new Properties();
-        try (var inputStream = Sql2oFilmRepository.class.getClassLoader()
+        try (var inputStream = Sql2oGenreRepository.class.getClassLoader()
                 .getResourceAsStream("connection.properties")) {
             properties.load(inputStream);
         }
