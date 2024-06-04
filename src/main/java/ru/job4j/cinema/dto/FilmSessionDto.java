@@ -1,6 +1,9 @@
 package ru.job4j.cinema.dto;
 
+import ru.job4j.cinema.model.FilmSession;
+
 import java.time.LocalDateTime;
+import java.util.Objects;
 
 public class FilmSessionDto {
 
@@ -67,5 +70,22 @@ public class FilmSessionDto {
 
     public void setPrice(String price) {
         this.price = price;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        FilmSessionDto that = (FilmSessionDto) o;
+        return id == that.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }

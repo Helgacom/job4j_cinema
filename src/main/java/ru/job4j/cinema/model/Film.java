@@ -42,9 +42,6 @@ public class Film {
         this.fileId = fileId;
     }
 
-    public Film() {
-    }
-
     public int getId() {
         return id;
     }
@@ -73,40 +70,20 @@ public class Film {
         return year;
     }
 
-    public void setYear(int year) {
-        this.year = year;
-    }
-
     public int getGenreId() {
         return genreId;
-    }
-
-    public void setGenreId(int genreId) {
-        this.genreId = genreId;
     }
 
     public int getMinimalAge() {
         return minimalAge;
     }
 
-    public void setMinimalAge(int minimalAge) {
-        this.minimalAge = minimalAge;
-    }
-
     public int getDurationInMinutes() {
         return durationInMinutes;
     }
 
-    public void setDurationInMinutes(int durationInMinutes) {
-        this.durationInMinutes = durationInMinutes;
-    }
-
     public int getFileId() {
         return fileId;
-    }
-
-    public void setFileId(int fileId) {
-        this.fileId = fileId;
     }
 
     @Override

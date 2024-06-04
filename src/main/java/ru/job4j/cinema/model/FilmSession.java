@@ -35,9 +35,6 @@ public class FilmSession {
         this.price = price;
     }
 
-    public FilmSession() {
-    }
-
     public int getId() {
         return id;
     }
@@ -50,40 +47,20 @@ public class FilmSession {
         return filmId;
     }
 
-    public void setFilmId(int filmId) {
-        this.filmId = filmId;
-    }
-
     public int getHallsId() {
         return hallsId;
-    }
-
-    public void setHallsId(int hallsId) {
-        this.hallsId = hallsId;
     }
 
     public LocalDateTime getStartTime() {
         return startTime;
     }
 
-    public void setStartTime(LocalDateTime startTime) {
-        this.startTime = startTime;
-    }
-
     public LocalDateTime getEndTime() {
         return endTime;
     }
 
-    public void setEndTime(LocalDateTime endTime) {
-        this.endTime = endTime;
-    }
-
     public int getPrice() {
         return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
     }
 
     @Override

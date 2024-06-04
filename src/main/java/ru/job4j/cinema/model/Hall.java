@@ -52,16 +52,8 @@ public class Hall {
         return rowCount;
     }
 
-    public void setRowCount(int rowCount) {
-        this.rowCount = rowCount;
-    }
-
     public int getPlaceCount() {
         return placeCount;
-    }
-
-    public void setPlaceCount(int placeCount) {
-        this.placeCount = placeCount;
     }
 
     public String getDescription() {

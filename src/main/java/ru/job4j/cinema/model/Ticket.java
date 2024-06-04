@@ -31,9 +31,6 @@ public class Ticket {
         this.userId = userId;
     }
 
-    public Ticket() {
-    }
-
     public int getId() {
         return id;
     }
@@ -54,24 +51,12 @@ public class Ticket {
         return rowNumber;
     }
 
-    public void setRowNumber(int rowNumber) {
-        this.rowNumber = rowNumber;
-    }
-
     public int getPlaceNumber() {
         return placeNumber;
     }
 
-    public void setPlaceNumber(int placeNumber) {
-        this.placeNumber = placeNumber;
-    }
-
     public int getUserId() {
         return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
     }
 
     @Override
