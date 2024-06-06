@@ -30,7 +30,7 @@ public class TicketController {
         Optional<FilmSessionDto> filmSessionDtoOptional = filmSessionService.findById(id);
         if (filmSessionDtoOptional.isEmpty()) {
             model.addAttribute("message", "Попробуйте выбрать другой сеанс");
-            return "error/404";
+            return "error/409";
         }
         String hallName = filmSessionDtoOptional.get().getHallsTitle();
         model.addAttribute("filmSession", filmSessionDtoOptional.get());

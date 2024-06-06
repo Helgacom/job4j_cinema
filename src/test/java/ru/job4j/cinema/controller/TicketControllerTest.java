@@ -53,7 +53,7 @@ class TicketControllerTest {
         var view = ticketController.getFilmSessionById(model, invalidId);
         var actualMessage = model.getAttribute("message");
 
-        assertThat(view).isEqualTo("error/404");
+        assertThat(view).isEqualTo("error/409");
         assertThat(actualMessage).isEqualTo("Попробуйте выбрать другой сеанс");
     }
 

@@ -42,28 +42,37 @@ http://localhost:8080/cinema/
 ### 1. Стартовая страница
 Содержит общую информацию о ресурсе и ссылки на разделы сервиса:
 
-![img.png](img.png)
+<img src="https://github.com/Helgacom/job4j_cinema/blob/57af17f34e01a4881110aed48ce90c73cf3576e5/images/img.png"/>
+
 ### 2. Кинотека
 Страница "Фильмы" со списком всех фильмов в прокате:
 
-![img_1.png](img_1.png)
+<img src="https://github.com/Helgacom/job4j_cinema/blob/57af17f34e01a4881110aed48ce90c73cf3576e5/images/img_1.png"/>
+
 ### 3. Расписание
 Основная сервисная страница, с которой можно ознакомиться с расписанием сеансов и забронировать билет
 
-![img_2.png](img_2.png)
+<img src="https://github.com/Helgacom/job4j_cinema/blob/57af17f34e01a4881110aed48ce90c73cf3576e5/images/img_2.png"/>
 
 Перейти на страницу покупки можно через ссылку по названию фильма,
 страница покупки позволяет пользователю самостоятельно выбрать место, если оно уже занято сервис предложить выбрать другое место, а в случае успешного бронирования выведет информацию об успешной покупке
 
-![img_3.png](img_3.png)
+<img src="https://github.com/Helgacom/job4j_cinema/blob/57af17f34e01a4881110aed48ce90c73cf3576e5/images/img_3.png"/>
+ 
+сообщение:
 
-![img_4.png](img_4.png)
+<img src="https://github.com/Helgacom/job4j_cinema/blob/57af17f34e01a4881110aed48ce90c73cf3576e5/images/img_4.png"/>
+
 ### 4. Регистрация/вход
 Купить билеты могут только рарегистрированные пользователи, для регистрации/входа пользователю необходимо либо заполнить форму регистрации либо войти в свой аккаунт:
 
-![img_5.png](img_5.png)
+регистрация:
 
-![img_6.png](img_6.png)
+<img src="https://github.com/Helgacom/job4j_cinema/blob/57af17f34e01a4881110aed48ce90c73cf3576e5/images/img_5.png"/>
+
+вход:
+
+<img src="https://github.com/Helgacom/job4j_cinema/blob/57af17f34e01a4881110aed48ce90c73cf3576e5/images/img_6.png"/>
 
 ## Контакты
 https://github.com/Helgacom
